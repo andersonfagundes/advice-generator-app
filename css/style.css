@@ -24,7 +24,7 @@ main {
 
 #box {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   width: 33.75rem;
   height: 20.75rem;
   border: none;
@@ -32,10 +32,33 @@ main {
   background: var(--dark-grayish-blue);
 }
 
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
 h1 {
   color: var(--neon-green);
   font-family: 'Manrope', sans-serif;
+  font-size: 13px;
   line-height: auto;
   letter-spacing: 4.09px;
-  margin-top: 3rem;
+}
+
+#quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 3rem 0 3rem;
+}
+
+q {
+  color: var(--light-cyan);
+  font-family: 'Manrope', sans-serif;
+  font-size: 28px;
+  line-height: auto;
+  text-align: center;
+  letter-spacing: -0.3px;
 }
