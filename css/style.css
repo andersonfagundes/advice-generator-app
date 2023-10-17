@@ -23,9 +23,19 @@ main {
 }
 
 #box {
+  display: flex;
+  justify-content: center;
   width: 33.75rem;
   height: 20.75rem;
   border: none;
   border-radius: 15px;
   background: var(--dark-grayish-blue);
+}
+
+h1 {
+  color: var(--neon-green);
+  font-family: 'Manrope', sans-serif;
+  line-height: auto;
+  letter-spacing: 4.09px;
+  margin-top: 3rem;
 }
