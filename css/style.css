@@ -36,7 +36,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid green;
 }
 
 h1 {
@@ -49,11 +48,10 @@ h1 {
 }
 
 .quote {
-  max-height: 114px;
+  height: 114px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem 3rem 0 3rem;
 }
 
 q {
@@ -63,4 +61,16 @@ q {
   line-height: auto;
   text-align: center;
   letter-spacing: -0.3px;
+}
+
+.footer {
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer > img {
+  cursor: pointer;
 }
